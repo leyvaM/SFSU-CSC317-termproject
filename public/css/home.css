@@ -1,0 +1,18 @@
+html {
+    background-size: cover;
+    height: 100%;
+}
+
+#container {
+    display: grid;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 15px;
+}
+
+.photo-class {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

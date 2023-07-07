@@ -1,0 +1,29 @@
+
+<div class = "post-container">
+<h2>Post</h2>
+<form method = "POST" enctype="multipart/form-data" action = '/posts/createPost'>
+    <div class = "post-form">
+    <input type = "text" placeholder="Post Title" required name = "title"/><br><br>
+    </div>
+
+    <div class = "post-form">
+    <textarea placeholder="Post Description" required name = "description"></textarea>
+    </div>
+
+    <div class = "post-form">
+    <p>Post your first image below!!!</p>
+    <input type = "file" required name = "image"/><br><br>
+    </div>
+
+    <div class = "post-check">
+    <input type = "checkbox" required/>
+    <label>please confirm that you have read and agree to the
+        <a href = "postimage.html"> Acceptable Use Policy</a>
+        for uploading images.
+    </label>
+    </div>
+
+    <button type = "submit">Submit</button>
+    <button type = "reset">Reset</button><br><br>
+</form>
+</div>

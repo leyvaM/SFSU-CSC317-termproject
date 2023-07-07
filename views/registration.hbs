@@ -1,0 +1,28 @@
+
+<div class = "reg-container">
+<div class = "title"><h1>Registration Form</h1></div>
+<i><p>All fields are required *</p></i>
+<form id = "form" method = "POST" action = "/users/register" enctype = "application/x-www-form-urlencoded">
+  <input type = "text" required name = "username" placeholder = "Username*" /><br><br>
+  <input type = "text" required name = "email" placeholder = "Email*" /><br><br>
+  <input type = "password" required name = "password" placeholder = "Password*" /><br><br>
+  <input type = "password" required name = "confirm_password" placeholder = "Confirm Password*" /><br><br>
+
+  <div class = "reg-check">
+  <input type = "checkbox" id = "first-checkbox" name = "checkbox1"/>
+  <label> please confirm that you are 13 years of age or older</label>
+  </div>
+
+  <div class = "reg-check">
+  <input type = "checkbox" id = "second-checkbox" name = "checkbox2"/>
+  <label>please confirm that you have read and agreed to the <a href =
+  "/register">TOS</a> and <a href = "/register">Privacy
+   rules</a></label>
+  </div>
+
+  <button type = "submit" class = "float">Submit</button>
+  <button type = "reset" class = "float">Cancel</button>
+
+  <p>Already have an account? <a href = "/login">Log in</a></p>
+</form>
+</div>

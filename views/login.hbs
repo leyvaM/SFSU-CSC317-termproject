@@ -1,0 +1,16 @@
+<div class="login-container">
+    <h1>Login</h1>
+    <i>
+        <p>Login to access all of your cool features!</p>
+    </i>
+    <form method="POST" action="/users/login" enctype="application/x-www-form-urlencoded">
+        <label>Username:</label><br>
+        <input type="text" required name="username" placeholder="Username" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" required name="password" placeholder="Password" /><br>
+        <p><a href="/login">forgot password?</a><br></p>
+        <button type="submit">Sign in</button><br><br>
+        <hr class="hr-tag">
+        <p>Don't have an account? <a href="/register">create an account</a></p>
+    </form>
+</div>
